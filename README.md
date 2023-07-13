@@ -111,7 +111,7 @@ sudo apt-get install git
 
 Get the source code and check it out in the current directory:  
 ```
-git clone -b Camplayer_1.0 https://github.com/raspicamplayer/camplayer.git
+git clone -b Camplayer_1.0 https://github.com/vevezo/camplayer.git
 ```
 
 Install camplayer by running the install script:  
