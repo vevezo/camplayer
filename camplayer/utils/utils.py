@@ -6,7 +6,7 @@ import time
 
 # Only supported revisions are listed at the moment
 # Non supported devices includes:
-#   - Devices without ethernet/WLAN 
+#   - Devices without ethernet/WLAN
 #   - Devices older than model 2
 # Source: https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md
 pi_revisions = {
@@ -23,12 +23,15 @@ pi_revisions = {
     "a020d3" : {"model": "3B+",         "supported": True, "dual_hdmi": False, "hevc": False},
     "a03111" : {"model": "4B 1GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
     "b03111" : {"model": "4B 2GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
-    "c03111" : {"model": "4B 4GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
     "b03112" : {"model": "4B 2GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
-    "c03112" : {"model": "4B 4GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
-    "d03114" : {"model": "4B 8GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
     "b03114" : {"model": "4B 2GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
+    "b03115" : {"model": "4B 2GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
+    "c03111" : {"model": "4B 4GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
+    "c03112" : {"model": "4B 4GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
     "c03114" : {"model": "4B 4GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
+    "c03115" : {"model": "4B 4GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
+    "d03114" : {"model": "4B 8GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
+    "d03115" : {"model": "4B 8GB",      "supported": True, "dual_hdmi": True,  "hevc": True},
     "c03130" : {"model": "PI 400 4GB",  "supported": True, "dual_hdmi": True,  "hevc": True},
     "9020e0" : {"model": "3A+",         "supported": True, "dual_hdmi": False, "hevc": False},
 }
